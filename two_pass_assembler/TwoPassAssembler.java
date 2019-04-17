@@ -1,5 +1,3 @@
-package com.two_pass;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
