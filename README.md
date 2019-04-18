@@ -59,14 +59,14 @@ Accept a source program, check if it belongs to given grammar, identify the toke
        x = a*b – a*b + a*b;
 - #### Chit 15
     1. [Write a program to intermediate code using following  example:](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/intermediate_code_generation)
-       a=b+c
-       d=e-f
+       a=b+c  
+       d=e-f  
        g=h*i
     2. [Write a Lex program for the calculator.](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/calculator)
 - #### Chit 16
     1. [Write a program to optimize code  using your desired technique]()
     2. [Write a program to generate the three address code  for a proof](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/3AC)
-       pi = 3.145;
+       pi = 3.145;  
        x = a * pi * 180  + b * pi * 2;
 - #### Chit 17
     1. [Write a program to optimize code  ,as compiler phase using any desired technique.]()
@@ -78,12 +78,12 @@ Accept a source program, check if it belongs to given grammar, identify the toke
        x = a/b*a/b;
 - #### Chit 19
     1. [Find the First() and Follow() sets of each non-terminal.](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/first_follow)
-       S 🡪 Xb | XS
+       S 🡪 Xb | XS  
        X 🡪 a | b
     2. [Write a Lex program for the calculator.](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/calculator)
 - #### Chit 20
     1. [Find the First() and Follow() sets of each non-terminal.](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/first_follow)
-       E 🡪 E + T | T
-       T 🡪 T * F | F
+       E 🡪 E + T | T  
+       T 🡪 T * F | F  
        F 🡪 id
     2. [Write a lex program for counting special characters (@,$,*, # etc.)]()
