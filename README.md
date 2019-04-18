@@ -1,10 +1,10 @@
 ## SPCC Chits  
 
 - #### Chit 1  
-    1. Write a program to create your own ‘C’ library using macros that can find the area of geometrical shapes (any 4)
+    1. [Write a program to create your own ‘C’ library using macros that can find the area of geometrical shapes (any 4)](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/libraries)
     2. [Write a Lex program to show the vowels and consonants of a token](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/count_vowel_consonants)  
 - #### Chit 2
-    1. Write a program to create your own ‘C’ library using macros for conversions.  
+    1. [Write a program to create your own ‘C’ library using macros for conversions.](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/libraries)  
       (metre ⬄ feet, litre ⬄ cubic feet, °C ⬄ °F)
     2. [Write a program to convert the given computation into three address code.  ](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/3AC)  
        x = a+ b*c -d;
@@ -17,8 +17,8 @@
     2. [Write a program to convert the given computation into three address code.  ](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/3AC)  
     x = a*b/c+d;
 - #### Chit 5
-    1. Write a program to create your own ‘C’ library using macros to find the properties 
-       of a given number n – factorial of n, sum of natural numbers till n, and factors of n.
+    1. [Write a program to create your own ‘C’ library using macros to find the properties 
+       of a given number n – factorial of n, sum of natural numbers till n, and factors of n.](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/libraries)
     2. [Write a program to convert the given computation into three address code.](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/3AC)  
     x = a-b/c*d;
 - #### Chit 6
