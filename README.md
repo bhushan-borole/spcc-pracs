@@ -18,7 +18,8 @@
     x = a*b/c+d;
 - #### Chit 5
     1. [Write a program to create your own ‘C’ library using macros to find the properties 
-       of a given number n – factorial of n, sum of natural numbers till n, and factors of n.](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/libraries)
+       of a given number n:](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/libraries)  
+        factorial of n, sum of natural numbers till n, and factors of n.
     2. [Write a program to convert the given computation into three address code.](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/3AC)  
     x = a-b/c*d;
 - #### Chit 6
