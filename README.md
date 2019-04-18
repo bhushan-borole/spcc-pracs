@@ -34,13 +34,13 @@
 Accept a source program, check if it belongs to given grammar, identify the tokens,
     2. [Write a Lex program to count the number of Upper case and lower case character.](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/count_uppercase_lowercase)
 - #### Chit 9
-    1. Write a program to remove left recursion from a given context free grammar
+    1. [Write a program to remove left recursion from a given context free grammar](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/left_recursion)
     2. Write a lex program to identify all the keywords (if, else, while etc.)
 - #### Chit 10
-    1. Write a program to remove left recursion from a given context free grammar.
+    1. [Write a program to remove left recursion from a given context free grammar.](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/left_recursion)
     2. [Write a Lex Program to identify vowels and consonants](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/count_vowel_consonants)
 - #### Chit 11
-    1. Write a program to remove left recursion from a given context free grammar.
+    1. [Write a program to remove left recursion from a given context free grammar.](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/left_recursion)
     2. [Write a Lex Program to count number of, Spaces and lines.](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/count_char_words_lines_spaces)
 - #### Chit 12
     1. [Write a Lex program for the calculator.](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/calculator)
