@@ -62,7 +62,7 @@ public class TwoPassMacroprocessor {
     static List<MDT> mdt = new ArrayList<>();
     static List<String> MACROS = new ArrayList<>(Arrays.asList("ADD", "SUB"));
 
-    static void populateALA(List<List<String []>> passes){
+    public void populateALA(){
         for(List<String []> pass : passes){
             for(String [] p : pass){
                 if(MACROS.contains(p[0])){
@@ -74,7 +74,7 @@ public class TwoPassMacroprocessor {
         }
     }
 
-    static void generatePasses(List<List<String []>> input){
+    public void generatePasses(List<List<String []>> input){
 
         for(List<String []> ip : input){
             if(ip.get(0)[0].equals("MACRO")){
@@ -87,7 +87,7 @@ public class TwoPassMacroprocessor {
         }
     }
 
-    static List<List<String []>> parseInput(String input){
+    public List<List<String []>> parseInput(String input){
         String [] lines = input.split("\n");
         String [][] full_split = new String[lines.length][];
 
@@ -142,7 +142,7 @@ public class TwoPassMacroprocessor {
         }
     }
 
-    static void performPass1(){
+    public void performPass1(){
         //populate MDT and MDTP simultaneously
         for(List<String []> pass : passes){
             for(String [] p : pass){
@@ -173,7 +173,7 @@ public class TwoPassMacroprocessor {
         printTables();
     }
 
-    static void performPass2(){
+    public void performPass2(){
         for(List<String []> non_pass : non_passes){
             for(String [] np : non_pass){
                 if(MACROS.contains(np[0])){
@@ -203,35 +203,5 @@ public class TwoPassMacroprocessor {
 
         System.out.println("\n-------- PASS 2 --------\n");
         printTables();
-    }
-
-    public static void main(String[] args) {
-        String input_string = "START\n" +
-                "\n" +
-                "MACRO\n" +
-                "ADD &ARG1,&ARG2\n" +
-                "L 1,&ARG1\n" +
-                "A 1,&ARG2\n" +
-                "MEND\n" +
-                "\n" +
-                "MACRO\n" +
-                "SUB &ARG3,&ARG4\n" +
-                "L 1,&ARG3\n" +
-                "S 1,&ARG4\n" +
-                "MEND\n" +
-                "\n" +
-                "ADD DATA1,DATA2\n" +
-                "SUB DATA1,DATA2\n" +
-                "\n" +
-                "DATA1 DC F'9'\n" +
-                "DATA2 DC F'5'\n" +
-                "\n" +
-                "END";
-
-        List<List<String []>> input = parseInput(input_string);
-        generatePasses(input);
-        populateALA(passes);
-        performPass1();
-        performPass2();
     }
 }

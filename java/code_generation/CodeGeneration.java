@@ -45,7 +45,7 @@ class Statement{
 public class CodeGeneration {
     static List<Statement> statements = new ArrayList<>();
 
-    private static void parseInput(String input){
+    public static void parseInput(String input){
         String arr[] = input.split("\n");
         for(String s : arr){
             String [] st = s.split("");
@@ -65,7 +65,7 @@ public class CodeGeneration {
         }
     }
 
-    static void codeGeneration(){
+    public void generateCode(){
         for(Statement st : statements){
             System.out.printf("MOV R%d, %s\n", statements.indexOf(st), st.getArg1());
             switch (st.getOp()){
@@ -89,17 +89,7 @@ public class CodeGeneration {
         }
     }
 
-    public static void main(String[] args) {
-        String input = "a=b\n" +
-                "f=c+d\n" +
-                "e=a-f\n" +
-                "g=b*c";
-        System.out.println("Original Code: ");
-        System.out.println(input);
-        parseInput(input);
-        System.out.println("\nMachine Code: ");
-        codeGeneration();
-    }
+
 }
 
 /*

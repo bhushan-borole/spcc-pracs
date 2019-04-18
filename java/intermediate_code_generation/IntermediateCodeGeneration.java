@@ -158,7 +158,7 @@ public class IntermediateCodeGeneration {
     static List<IndirectTriple> indirectTriples = new ArrayList<>();
     static List<Statement> statements = new ArrayList<>();
 
-    private static void parseInput(String input){
+    public void parseInput(String input){
         String arr[] = input.split("\n");
         for(String s : arr){
             String [] st = s.split("");
@@ -189,7 +189,7 @@ public class IntermediateCodeGeneration {
         return result;
     }
 
-    static void intermediateCodeGeneration(){
+    public void generateCode(){
         int location = 100;
         int pointer = 35;
         for(Statement s: statements){
@@ -234,18 +234,6 @@ public class IntermediateCodeGeneration {
                     i.getArg2(), i.getPointer(), i.getLoc());
             System.out.println();
         }
-    }
-
-    public static void main(String[] args) {
-        String input = "a=b\n" +
-                "f=c+d\n" +
-                "e=a-f\n" +
-                "g=b*c";
-        System.out.println("Original Code: ");
-        System.out.println(input);
-        parseInput(input);
-        System.out.println("\nIntermediate Code Generation: ");
-        intermediateCodeGeneration();
     }
 }
 

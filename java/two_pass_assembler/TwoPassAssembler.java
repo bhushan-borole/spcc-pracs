@@ -78,14 +78,14 @@ public class TwoPassAssembler {
     static List<Symbol> symbolTable = new ArrayList<>();
     static int base;
 
-    static void parseInput(String input){
+    public void parseInput(String input){
         String [] split = input.split("\n");
         for(String s : split){
             INPUT.add(s.split("\\s|,"));
         }
     }
 
-    static void getSpecifics(){
+    public void getSpecifics(){
         if(INPUT.get(0).length > 2){
             startIndex = Integer.valueOf(INPUT.get(0)[2]);
         }
@@ -128,7 +128,7 @@ public class TwoPassAssembler {
 
     }
 
-    static void performPass1(){
+    public void performPass1(){
         System.out.println("--------- Pass 1 ----------");
         String Base = "(0, " + base + ")";
         for(MachineOpcode m : MOT){
@@ -148,7 +148,7 @@ public class TwoPassAssembler {
         return 0;
     }
 
-    static void performPass2(){
+    public void performPass2(){
         System.out.println("\n--------- Pass 2 ----------");
         String Base = "(0, " + base + ")";
         for(MachineOpcode m : MOT){
@@ -158,24 +158,6 @@ public class TwoPassAssembler {
         for(Symbol s : symbolTable){
             System.out.println(s.getLocation() + " " + s.getValue());
         }
-    }
-
-    public static void main(String[] args) {
-        String input = "JOHN START 0\n" +
-                        "USING *,15\n" +
-                        "L 1,FIVE\n" +
-                        "A 1,FOUR\n" +
-                        "ST 1,TEMP\n" +
-                        "FOUR DC F'4'\n" +
-                        "FIVE DC F'5'\n" +
-                        "TEMP DS 1F\n" +
-                        "END";
-        System.out.println("Assembly Code: ");
-        System.out.println(input + "\n");
-        parseInput(input);
-        getSpecifics();
-        performPass1();
-        performPass2();
     }
 }
 
