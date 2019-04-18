@@ -11,7 +11,7 @@ if|else|while|int|switch|for|char {keywords++;}
 
 int main()
 {
-	printf("Enter the string of your choice: \n");
+    printf("Enter the string of your choice: \n");
     yylex();
     return 0;
 }
