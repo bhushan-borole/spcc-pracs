@@ -87,4 +87,4 @@ Accept a source program, check if it belongs to given grammar, identify the toke
        E 🡪 E + T | T  
        T 🡪 T * F | F  
        F 🡪 id
-    2. Write a lex program for counting special characters (@,$,*, # etc.)
+    2. [Write a lex program for counting special characters (@,$,*, # etc.)](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/count_special_characters)
