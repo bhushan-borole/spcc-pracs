@@ -70,7 +70,7 @@ Accept a source program, check if it belongs to given grammar, identify the toke
        x = a * pi * 180  + b * pi * 2;
 - #### Chit 17
     1. [Write a program to optimize code  ,as compiler phase using any desired technique.]()
-    2. [Write a program to generate the three address code of:  ](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/3AC)
+    2. [Write a program to generate the three address code of:  ](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/3AC)  
        x = (a-b)*(b-a);
 - #### Chit 18
     1. [Write a program for code generation phase of compiler using any set of statements](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/code_generation)
