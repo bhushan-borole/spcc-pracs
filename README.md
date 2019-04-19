@@ -173,19 +173,25 @@
 
 - #### Chit 19
 
-    1. [Find the First() and Follow() sets of each non-terminal.  ](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/first_follow)  
+    1. Find the First() and Follow() sets of each non-terminal.
        S 🡪 Xb | XS  
        X 🡪 a | b
+       
+       - [Bhushan Java](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/first_follow)
+       - [Vinay Java](https://github.com/vinay-deshmukh/SPCC_Codes/tree/master/first_follow)
        
     2. [Write a Lex program for the calculator.](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/calculator)
 
 
 - #### Chit 20
 
-    1. [Find the First() and Follow() sets of each non-terminal.  ](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/first_follow)  
+    1. Find the First() and Follow() sets of each non-terminal.
        E 🡪 E + T | T  
        T 🡪 T * F | F  
        F 🡪 id
+       
+       - [Bhushan Java](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/first_follow)
+       - [Vinay Java](https://github.com/vinay-deshmukh/SPCC_Codes/tree/master/first_follow)
        
     2. [Write a lex program for counting special characters (@,$,*, # etc.)](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/count_special_characters)
     
