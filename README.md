@@ -13,7 +13,8 @@
       (metre ⬄ feet, litre ⬄ cubic feet, °C ⬄ °F)
       
     2. Write a program to convert the given computation into three address code.        x = a+ b*c -d;    
-        - [Java Rishabh](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/3AC)  
+        - [Java Rishabh](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/three_address_code/rishabh)  
+        - [Java Bhushan](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/three_address_code/bhushan)  
         - [Lex Yacc Vinay](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/3ac)
 
 
@@ -22,7 +23,8 @@
     1. Write a Lex program to identify tokens.
     
     2. Write a program to convert the given computation into three address code.    x = a*b/c+d;
-        - [Java Rishabh](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/3AC)  
+        - [Java Rishabh](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/three_address_code/rishabh)  
+        - [Java Bhushan](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/three_address_code/bhushan)  
         - [Lex Yacc Vinay](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/3ac)
 
 
@@ -32,7 +34,8 @@
     
     2. Write a program to convert the given computation into three address code.
     x = a*b/c+d;
-        - [Java Rishabh](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/3AC)  
+        - [Java Rishabh](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/three_address_code/rishabh)  
+        - [Java Bhushan](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/three_address_code/bhushan)  
         - [Lex Yacc Vinay](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/3ac)
 
 
@@ -44,7 +47,8 @@
         
     2. Write a program to convert the given computation into three address code. 
     x = a-b/c*d;
-        - [Java Rishabh](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/3AC)  
+        - [Java Rishabh](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/three_address_code/rishabh)  
+        - [Java Bhushan](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/three_address_code/bhushan)  
         - [Lex Yacc Vinay](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/3ac)
 
 
@@ -130,7 +134,8 @@
     2. Write a program to generate the three address code of:
        x = a*b – a*b + a*b;
        
-        - [Java Rishabh](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/3AC)  
+        - [Java Rishabh](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/three_address_code/rishabh)  
+        - [Java Bhushan](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/three_address_code/bhushan)  
         - [Lex Yacc Vinay](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/3ac)
         
 - #### Chit 15
@@ -149,7 +154,8 @@
        pi = 3.145;  
        x = a * pi * 180  + b * pi * 2;
        
-        - [Java Rishabh](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/3AC)  
+        - [Java Rishabh](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/three_address_code/rishabh)  
+        - [Java Bhushan](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/three_address_code/bhushan)  
         - [Lex Yacc Vinay](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/3ac)
 
 - #### Chit 17
@@ -157,7 +163,7 @@
     2. Write a program to generate the three address code of:
        x = (a-b)*(b-a);
        
-        - [Java Rishabh](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/3AC)  
+        - [Java Rishabh](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/three_address_code/rishabh)  
         - [Lex Yacc Vinay](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/3ac)
 
 
@@ -167,31 +173,26 @@
     
     2. Write a program to generate the three address code of:
        x = a/b*a/b;
-        - [Java Rishabh](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/3AC)  
+        - [Java Rishabh](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/three_address_code/rishabh)  
+        - [Java Bhushan](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/three_address_code/bhushan)  
         - [Lex Yacc Vinay](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/3ac)
 
 
 - #### Chit 19
 
-    1. Find the First() and Follow() sets of each non-terminal.
+    1. [Find the First() and Follow() sets of each non-terminal.](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/first_follow)  
        S 🡪 Xb | XS  
        X 🡪 a | b
-       
-       - [Bhushan Java](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/first_follow)
-       - [Vinay Java](https://github.com/vinay-deshmukh/SPCC_Codes/tree/master/first_follow)
        
     2. [Write a Lex program for the calculator.](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/calculator)
 
 
 - #### Chit 20
 
-    1. Find the First() and Follow() sets of each non-terminal.
+    1. [Find the First() and Follow() sets of each non-terminal.](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/first_follow)  
        E 🡪 E + T | T  
        T 🡪 T * F | F  
        F 🡪 id
-       
-       - [Bhushan Java](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/first_follow)
-       - [Vinay Java](https://github.com/vinay-deshmukh/SPCC_Codes/tree/master/first_follow)
        
     2. [Write a lex program for counting special characters (@,$,*, # etc.)](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/count_special_characters)
     
