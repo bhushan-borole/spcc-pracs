@@ -20,7 +20,7 @@
 
 - #### Chit 3
 
-    1. Write a Lex program to identify tokens.
+    1. [Write a Lex program to identify tokens.](https://github.com/bhushan-borole/spcc-pracs/blob/master/lex_yacc/identify_tokens)
     
     2. Write a program to convert the given computation into three address code.    x = a*b/c+d;
         - [Java Rishabh](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/three_address_code/rishabh)  
@@ -118,7 +118,7 @@
        
 - #### Chit 13
 
-    1. Write a Lex Program to identify tokens.
+    1. [Write a Lex Program to identify tokens.](https://github.com/bhushan-borole/spcc-pracs/blob/master/lex_yacc/identify_tokens)
     
     2. [Write a program to intermediate code using following example:  ](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/intermediate_code_generation)  
        s=b+c
