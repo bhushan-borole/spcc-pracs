@@ -180,7 +180,7 @@
 
 - #### Chit 19
 
-    1. [Find the First() and Follow() sets of each non-terminal.](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/first_follow)  
+    1. [Find the First() and Follow() sets of each non-terminal.](https://github.com/vinay-deshmukh/SPCC_Codes/tree/master/first_follow)  
        S 🡪 Xb | XS  
        X 🡪 a | b
        
@@ -189,7 +189,7 @@
 
 - #### Chit 20
 
-    1. [Find the First() and Follow() sets of each non-terminal.](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/first_follow)  
+    1. [Find the First() and Follow() sets of each non-terminal.](https://github.com/vinay-deshmukh/SPCC_Codes/tree/master/first_follow)  
        E 🡪 E + T | T  
        T 🡪 T * F | F  
        F 🡪 id
