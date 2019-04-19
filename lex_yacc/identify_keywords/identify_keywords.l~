@@ -6,7 +6,7 @@
 
 %%
 if|else|while|int|switch|for|char {keywords++;}
-\n {printf("Total Number of keywords: %d", keywords);}
+\n {prinf("Total Number of keywords: %d", keywords);}
 %%
 
 int main()
