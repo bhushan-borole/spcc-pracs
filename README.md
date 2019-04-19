@@ -35,27 +35,36 @@
 - #### Chit 6
     1. Design a lexical analyser for a language whose grammar ( assume relevant grammar ). 
        Take Accept a source program, check if it belongs to given grammar, identify the tokens.
+       - [Vinay Java](https://github.com/vinay-deshmukh/SPCC_Codes/blob/master/spcc2/SPCC_E2.java)
     2. [Write a Lex program to count the number of lines in a source program.](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/count_char_words_lines_spaces)
     
 - #### Chit 7
     1. [Write a Lex program to count the number of vowels in input string](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/count_vowel_consonants)
     2. Write a program to create your own ‘C’ library using macros that make use of appropriate switch case statements
 - #### Chit 8
+
     1. Design a lexical analyser for a language whose grammar is given below.
-Accept a source program, check if it belongs to given grammar, identify the tokens,
+        Accept a source program, check if it belongs to given grammar, identify the tokens,
+       - [Vinay Java](https://github.com/vinay-deshmukh/SPCC_Codes/blob/master/spcc2/SPCC_E2.java)
+       
     2. [Write a Lex program to count the number of Upper case and lower case character.](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/count_uppercase_lowercase)
+    
 - #### Chit 9
     1. [Write a program to remove left recursion from a given context free grammar](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/left_recursion)
     2. [Write a lex program to identify all the keywords (if, else, while etc.)](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/identify_keywords)
 - #### Chit 10
     1. [Write a program to remove left recursion from a given context free grammar.](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/left_recursion)
     2. [Write a Lex Program to identify vowels and consonants](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/count_vowel_consonants)
+    
 - #### Chit 11
+
     1. [Write a program to remove left recursion from a given context free grammar.](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/left_recursion)
+    
     2. [Write a Lex Program to count number of, Spaces and lines.](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/count_char_words_lines_spaces)
     
 - #### Chit 12
     1. [Write a Lex program for the calculator.](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/calculator)
+    
     2. [Write a program to intermediate code using following example:  ](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/intermediate_code_generation)  
        a=b/c
        
@@ -67,8 +76,11 @@ Accept a source program, check if it belongs to given grammar, identify the toke
     1. Write a Lex Program to identify tokens.
     2. [Write a program to intermediate code using following example:  ](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/intermediate_code_generation)  
        s=b+c
+       
        d=h-f
+       
        z=e*g
+       
 - #### Chit 14
     1. Write a program to optimize code by eliminating common subexpressions.
     2. Write a program to generate the three address code of:
@@ -76,6 +88,7 @@ Accept a source program, check if it belongs to given grammar, identify the toke
        
         - [Java Rishabh](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/3AC)  
         - [Lex Yacc Vinay](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/3ac)
+        
 - #### Chit 15
     1. [Write a program to intermediate code using following  example:  ](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/intermediate_code_generation)  
        a=b+c  
