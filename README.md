@@ -149,7 +149,7 @@
        
     2. [Write a Lex program for the calculator.](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/calculator)
 - #### Chit 16
-    1. Write a program to optimize code  using your desired technique.
+    1. [Write a program to optimize code  using your desired technique.](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/code_optimization)
     2. Write a program to generate the three address code for a proof
        pi = 3.145;  
        x = a * pi * 180  + b * pi * 2;
@@ -159,7 +159,7 @@
         - [Lex Yacc Vinay](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/3ac)
 
 - #### Chit 17
-    1. Write a program to optimize code  ,as compiler phase using any desired technique.
+    1. [Write a program to optimize code  ,as compiler phase using any desired technique.](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/code_optimization)
     2. Write a program to generate the three address code of:
        x = (a-b)*(b-a);
        
