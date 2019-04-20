@@ -135,7 +135,7 @@
        
 - #### Chit 14
 
-    1. Write a program to optimize code by eliminating common subexpressions.
+    1. [Write a program to optimize code by eliminating common subexpressions.](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/code_optimization/removing_common_subexpression)
     
     2. Write a program to generate the three address code of:
        x = a*b – a*b + a*b;
