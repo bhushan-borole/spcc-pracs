@@ -4,7 +4,10 @@
 
     1. [Write a program to create your own ‘C’ library using macros that can find the area of geometrical shapes (any 4)](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/libraries)
     
-    2. [Write a Lex program to show the vowels and consonants of a token](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/count_vowel_consonants)  
+    2. Write a Lex program to show the vowels and consonants of a token
+    
+        - [Bhushan](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/count_vowel_consonants)
+        - [Vinay](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/identify_vowels_consos)
     
     
 - #### Chit 2
@@ -92,7 +95,10 @@
         - [Bhushan Java](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/left_recursion)
         - [Vinay Java](https://github.com/vinay-deshmukh/SPCC_Codes/blob/master/left_recursion/LeftRecursion.java)
     
-    2. [Write a Lex Program to identify vowels and consonants](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/count_vowel_consonants)
+    2. Write a Lex Program to identify vowels and consonants
+    
+        - [Bhushan](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/count_vowel_consonants)
+        - [Vinay](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/identify_vowels_consos)
     
     
 - #### Chit 11
