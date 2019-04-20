@@ -45,12 +45,12 @@ public class Tree {
         return 0;
     }
     void print3AC(Node root){
+        if(root.left != null) print3AC(root.left);
+        if(root.right != null) print3AC(root.right);
         if(root.right != null & root.left != null){
             String left = root.left.left == null ? root.left.data : root.left.register;
             String right = root.right.left == null ? root.right.data : root.right.register;
             System.out.println(String.format("%s = %s %s %s", root.register, left, root.data, right));
         }
-        if(root.left != null) print3AC(root.left);
-        if(root.right != null) print3AC(root.right);
     }
 }
