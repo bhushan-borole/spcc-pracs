@@ -167,7 +167,7 @@
 - #### Chit 17
     1. [Write a program to optimize code  ,as compiler phase using any desired technique.](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/code_optimization)
     2. Write a program to generate the three address code of:
-       x = (a-b)*(b-a);
+       x = (a-b)*(b-a);  
         - [Java Bhushan](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/three_address_code/bhushan)  
         - [Java Rishabh](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/three_address_code/rishabh)  
         - [Lex Yacc Vinay](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/3ac)
