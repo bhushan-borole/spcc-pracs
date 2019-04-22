@@ -4,7 +4,10 @@
 
     1. [Write a program to create your own ‘C’ library using macros that can find the area of geometrical shapes (any 4)](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/libraries)
     
-    2. [Write a Lex program to show the vowels and consonants of a token](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/count_vowel_consonants)  
+    2. Write a Lex program to show the vowels and consonants of a token
+    
+        - [Bhushan](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/count_vowel_consonants)
+        - [Vinay](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/identify_vowels_consos)
     
     
 - #### Chit 2
@@ -92,7 +95,10 @@
         - [Bhushan Java](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/left_recursion)
         - [Vinay Java](https://github.com/vinay-deshmukh/SPCC_Codes/blob/master/left_recursion/LeftRecursion.java)
     
-    2. [Write a Lex Program to identify vowels and consonants](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/count_vowel_consonants)
+    2. Write a Lex Program to identify vowels and consonants
+    
+        - [Bhushan](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/count_vowel_consonants)
+        - [Vinay](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/identify_vowels_consos)
     
     
 - #### Chit 11
@@ -129,7 +135,7 @@
        
 - #### Chit 14
 
-    1. Write a program to optimize code by eliminating common subexpressions.
+    1. [Write a program to optimize code by eliminating common subexpressions.](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/code_optimization/removing_common_subexpression)
     
     2. Write a program to generate the three address code of:
        x = a*b – a*b + a*b;
@@ -161,8 +167,8 @@
 - #### Chit 17
     1. [Write a program to optimize code  ,as compiler phase using any desired technique.](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/code_optimization)
     2. Write a program to generate the three address code of:
-       x = (a-b)*(b-a);
-       
+       x = (a-b)*(b-a);  
+        - [Java Bhushan](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/three_address_code/bhushan)  
         - [Java Rishabh](https://github.com/bhushan-borole/spcc-pracs/tree/master/java/three_address_code/rishabh)  
         - [Lex Yacc Vinay](https://github.com/bhushan-borole/spcc-pracs/tree/master/lex_yacc/3ac)
 
