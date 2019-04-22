@@ -18,3 +18,15 @@
         }                     \
     }                         \
 })
+
+#define get_factors(n, arr) ({ \
+    int j = 0;      \
+        printf("%d", n);\
+    for(int i=1; i<=n; i++){   \
+        if(n%i == 0){          \
+            arr[++j] = i;      \
+        }                      \
+    }                          \
+    printf("%d", j);           \
+    j+1;                         \
+})
