@@ -8,6 +8,9 @@
 
 // ({ }) this is mandatory when writing a multiline macro that has a retval.
 
+// Reference:
+// https://stackoverflow.com/questions/3532621/using-and-returning-output-in-c-macro/3533300#3533300
+// https://gcc.gnu.org/onlinedocs/gcc/Statement-Exprs.html
 
 #define sum_n(n) n * (n + 1) / 2
 
